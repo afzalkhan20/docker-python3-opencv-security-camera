@@ -17,4 +17,4 @@ deploy:
     - script:
         name: Authenticate
         code: |
-            docker login -u afzalkhan20 -p Iwillrule2020!
+            docker login -u $DOCKER_USER -p $DOCKER_PASS!
