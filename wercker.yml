@@ -18,7 +18,3 @@ deploy:
         name: Authenticate
         code: |
             docker login -u afzalkhan20 -p Iwillrule2020!
-    - script:
-        name: Push
-        code: |
-            docker push afzalkhan20/docker-python3-opencv-security-camera
