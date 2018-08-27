@@ -21,4 +21,4 @@ deploy:
     - script:
         name: Push
         code: |
-            docker push $DOCKER_USER/docker-python3-opencv-security-camera
+            docker push afzalkhan20/docker-python3-opencv-security-camera
