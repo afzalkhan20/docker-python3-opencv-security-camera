@@ -24,7 +24,7 @@ RUN pip install numpy
 
 WORKDIR /
 RUN wget https://github.com/opencv/opencv/archive/3.3.0.zip \
-&& git clone https://github.com/arthurgeron/picamera \
+&& git clone https://github.com/afzalkhan20/picamera \
 && unzip 3.3.0.zip \
 && cd picamera \
 && pip install -r requirements.txt \
@@ -55,6 +55,6 @@ RUN wget https://github.com/opencv/opencv/archive/3.3.0.zip \
 && cd ../.. \
 && chmod +x picamera/main.py
 #Expose port 80
-EXPOSE 80
+EXPOSE 84
 #Default command
 CMD ["picamera/main.py"]
